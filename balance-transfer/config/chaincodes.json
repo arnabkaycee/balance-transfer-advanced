@@ -1,0 +1,13 @@
+{
+    "chaincodes": {
+        "my-chaincode": {
+            "ccPath": "org/hyperledger/chaincode/my_chaincode",
+            "ccVersion": "v1",
+            "GOPATH": "artifacts",
+            "GOPATHPrefix": "./",
+            "properties": {
+                "chaincodeDateFormat": "YYYYMMDD"
+            }
+        }
+    }
+}

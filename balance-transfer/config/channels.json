@@ -1,0 +1,24 @@
+{
+    "channels": {
+        "common-channel": {
+            "chaincodes": {
+                "kyc-chaincode-common": {
+                    "endorsementPolicy": "kyc-cc-policy",
+                    "chaincodeInstantionArgs" : [ "a", "50", "b","100" ],
+                    "chaincodeInstantionFunction": "init",
+                    "instantiator" : "Agent"
+                }
+            },
+            "creator": "Consortium",
+            "organizations": {
+                "Agent": {
+                    "anchorPeerConfigPath": "../../../config/common-channel/agent-anchors.tx"
+                },
+                "Consortium":{},
+                "SecA":{},
+                "SecB":{},
+                "SecC":{}
+            }
+        }
+    }
+}

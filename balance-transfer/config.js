@@ -16,3 +16,6 @@ hfc.setConfigSetting('Org1-connection-profile-path',path.join(__dirname, 'artifa
 hfc.setConfigSetting('Org2-connection-profile-path',path.join(__dirname, 'artifacts', 'org2.yaml'));
 // some other settings the application might need to know
 hfc.addConfigFile(path.join(__dirname, 'config.json'));
+hfc.addConfigFile(path.join(__dirname, 'channel.json'));
+hfc.addConfigFile(path.join(__dirname, 'chaincodes.json'));
+hfc.addConfigFile(path.join(__dirname, 'policies.json'));

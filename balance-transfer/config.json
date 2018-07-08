@@ -10,5 +10,18 @@
          "username":"admin",
          "secret":"adminpw"
       }
-   ]
+   ],
+
+   "configurations":{
+       "Org1":{
+           "channel-config": "./config/channels.json",
+           "chaincode-config":"./config/chaincodes.json",
+           "policy-config":"./config/policies.json"
+       },
+       "Org2":{
+        "channel-config": "./config/channels.json",
+        "chaincode-config":"./config/chaincodes.json",
+        "policy-config":"./config/policies.json"
+    }
+   }
 }
